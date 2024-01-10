@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .container {
@@ -153,4 +154,23 @@ body {
 
 .wrong > div {
   background-color: #293448;
+}
+
+/* the judge of the char style */
+.in-place-style {
+  background-color: #faa70a;
+  color: #fff;
+  border-color: transparent;
+}
+
+.not-in-place-style {
+  background-color: #26b095;
+  color: #fff;
+  border-color: transparent;
+}
+
+.wrong-style {
+  background-color: #293448;
+  color: #fff;
+  border-color: transparent;
 }

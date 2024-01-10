@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta chars charet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="style.css" />
     <title>Word Guess Game</title>
   </head>
   <body>
+    <!-- start the game -->
     <div class="container">
       <h1>Guess The Word</h1>
       <div class="the-game">
@@ -16,56 +17,56 @@
             <div class="try1">
               <p>Try 1</p>
               <div class="charchters">
-                <input type="text" class="char1" />
-                <input type="text" class="char2" />
-                <input type="text" class="char3" />
-                <input type="text" class="char4" />
-                <input type="text" class="char5" />
+                <input type="text" class="char1 char" data-value="1" />
+                <input type="text" class="char2 char" data-value="2" />
+                <input type="text" class="char3 char" data-value="3" />
+                <input type="text" class="char4 char" data-value="4" />
+                <input type="text" class="char5 char" data-value="5" />
               </div>
             </div>
             <div class="try2">
               <p>Try 2</p>
               <div class="charchters">
-                <input type="text" class="char1" />
-                <input type="text" class="char2" />
-                <input type="text" class="char3" />
-                <input type="text" class="char4" />
-                <input type="text" class="char5" />
+                <input type="text" class="char1 char" />
+                <input type="text" class="char2 char" />
+                <input type="text" class="char3 char" />
+                <input type="text" class="char4 char" />
+                <input type="text" class="char5 char" />
               </div>
             </div>
             <div class="try3">
               <p>Try 3</p>
               <div class="charchters">
-                <input type="text" class="char1" />
-                <input type="text" class="char2" />
-                <input type="text" class="char3" />
-                <input type="text" class="char4" />
-                <input type="text" class="char5" />
+                <input type="text" class="char1 char" />
+                <input type="text" class="char2 char" />
+                <input type="text" class="char3 char" />
+                <input type="text" class="char4 char" />
+                <input type="text" class="char5 char" />
               </div>
             </div>
             <div class="try4">
               <p>Try 4</p>
               <div class="charchters">
-                <input type="text" class="char1" />
-                <input type="text" class="char2" />
-                <input type="text" class="char3" />
-                <input type="text" class="char4" />
-                <input type="text" class="char5" />
+                <input type="text" class="char1 char" />
+                <input type="text" class="char2 char" />
+                <input type="text" class="char3 char" />
+                <input type="text" class="char4 char" />
+                <input type="text" class="char5 char" />
               </div>
             </div>
             <div class="try5">
               <p>Try 5</p>
               <div class="charchters">
-                <input type="text" class="char1" />
-                <input type="text" class="char2" />
-                <input type="text" class="char3" />
-                <input type="text" class="char4" />
-                <input type="text" class="char5" />
+                <input type="text" class="char1 char" />
+                <input type="text" class="char2 char" />
+                <input type="text" class="char3 char" />
+                <input type="text" class="char4 char" />
+                <input type="text" class="char5 char" />
               </div>
             </div>
           </div>
           <div class="btns">
-            <button class="check-word">Check Word</button>
+            <button class="check-word" id="check-word-btn">Check Word</button>
             <button class="hint"><span></span> Hint</button>
           </div>
         </div>
@@ -88,6 +89,7 @@
         </div>
       </div>
     </div>
+    <!-- end the game -->
 
     <script src="script.js"></script>
   </body>
