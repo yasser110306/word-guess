@@ -1,8 +1,6 @@
 const answer = "hamdy";
 const answerArr = answer.split("");
-console.log(answerArr);
 const charchterBox = document.querySelectorAll(".try1 input");
-console.log(charchterBox[0].data);
 
 // limiting N of chars
 const inputLimit = 1;
