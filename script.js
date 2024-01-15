@@ -1,4 +1,5 @@
-const answer = "hamdy";
+const answers = ["hamdy", "quick", "jumbo", "pizza"];
+const answer = answers[Math.floor(Math.random() * answers.length)];
 
 const answerArr = answer.split("");
 
