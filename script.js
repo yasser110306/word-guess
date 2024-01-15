@@ -50,7 +50,7 @@ function checkBoxes() {
 
   // judge after try is checked if player won or lost
   handleLoseOrWin();
-
+  // if still not win return number of right chars to zero
   inPlaceCounter = 0;
 
   // goes to next try
