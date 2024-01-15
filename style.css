@@ -101,15 +101,6 @@ body {
   color: #fff;
 }
 
-.hint {
-  padding: 0.4em 0.6em;
-  font-size: 1.3rem;
-  background-color: #1e8588;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-}
-
 .the-game-guide {
   width: calc(50% - 15px);
   display: flex;
