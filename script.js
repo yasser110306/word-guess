@@ -51,6 +51,8 @@ function checkBoxes() {
   // judge after try is checked if player won or lost
   handleLoseOrWin();
 
+  inPlaceCounter = 0;
+
   // goes to next try
   numberOfTry++;
 
